@@ -1,3 +1,17 @@
 PDF SOPs → Text Extraction → Chunking → Embeddings → Vector DB
 → Query → Retrieve relevant chunks → LLM (Llama) → Answer
 → Web UI
+ai-soc-rag/
+│
+├── data/                    # PDFs (SOPs, KBs)
+├── embeddings/             # Stored vector DB
+├── backend/
+│   ├── ingest.py           # PDF → embeddings
+│   ├── query.py            # RAG pipeline
+│   ├── config.py
+│
+├── frontend/
+│   ├── app.py              # Streamlit UI
+│
+├── requirements.txt
+└── README.md
