@@ -1,0 +1,3 @@
+PDF SOPs → Text Extraction → Chunking → Embeddings → Vector DB
+→ Query → Retrieve relevant chunks → LLM (Llama) → Answer
+→ Web UI
